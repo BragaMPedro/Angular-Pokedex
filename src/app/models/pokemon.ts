@@ -62,7 +62,7 @@ export interface Sprites {
 export interface Other {
     dream_world:        DreamWorld;
     home:               Home;
-    "official-artwork": OfficialArtwork;
+    official_artwork: OfficialArtwork;
 }
 
 export interface DreamWorld {
