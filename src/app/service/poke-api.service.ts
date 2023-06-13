@@ -14,7 +14,6 @@ export class PokeApiService {
 
   get getAllPokemon(): Observable<any> {
     return this.http.get<PokemonListResponse>(this.url).pipe(
-      tap((res) => console.log(res)),
       map((res) => res.results),
       tap((results) =>
         results.map((result: any) => {
