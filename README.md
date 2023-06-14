@@ -35,7 +35,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/BragaMPedro/Angular-Pokedex>
+$ git clone https://github.com/BragaMPedro/Angular-Pokedex
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd Angular-Pokedex
@@ -51,6 +51,9 @@ $ npm install
 $ ng serve
 
 # Abra seu browser em `http://localhost:4200` para acessar a aplicação.
+
+#Ou utilize o comando abaixo para abrir o browser automaticamente
+$ ng serve -o
 ```
 
 ## Tecnologias
