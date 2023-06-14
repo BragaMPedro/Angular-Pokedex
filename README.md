@@ -68,3 +68,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## Contribuidores
 
 ## Autor
+<a href="https://www.linkedin.com/in/pedrobragaresume/">
+   <img src="https://avatars.githubusercontent.com/u/111090976?v=4" width="100px;" style="border-radius: 50%" alt=""/>
+   <br />
+   <sub><bPedro Braga</b></sub>
+</a>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Pedro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=[https://www.linkedin.com/in/pedrobragaresume/)](https://www.linkedin.com/in/pedrobragaresume/)
