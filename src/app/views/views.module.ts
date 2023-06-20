@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { RoutingModule } from './routing.module';
 import { DetailsComponent } from './details/details.component';
-import { SharedModule } from '../shared/shared.module';
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     RoutingModule,
-    SharedModule
+    ComponentsModule
   ]
 })
-export class PagesModule { }
+export class ViewsModule { }

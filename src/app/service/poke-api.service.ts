@@ -9,11 +9,25 @@ import { Pokemon } from '../models/pokemon';
 })
 export class PokeApiService {
   private url: string = 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=100';
+  private nextPage: string = "";
 
   constructor(private http: HttpClient) {}
 
   get getAllPokemon(): Observable<any> {
     return this.http.get<PokemonListResponse>(this.url).pipe(
+      tap(res => this.nextPage = res.next),
+      map((res) => res.results),
+      tap((results) =>
+        results.map((result: any) => {
+          this.getPokemon(result.url).subscribe((res) => result.status = res);
+        })
+      ),
+    );
+  }
+  
+  get getMorePokemon(): Observable<any> {
+    return this.http.get<PokemonListResponse>(this.nextPage).pipe(
+      tap(res => this.nextPage = res.next),
       map((res) => res.results),
       tap((results) =>
         results.map((result: any) => {
