@@ -1,0 +1,25 @@
+@import "../../../config-scss/rem-calc.scss";
+
+:host {
+  position: fixed;
+  float: right;
+  right: rem-calc(100);
+  bottom: rem-calc(100);
+  z-index: 100;
+  opacity: 0.6;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  .btn {
+    width: fit-content;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: rem-calc(20) rem-calc(20);
+  }
+
+  @media (max-width: 1024) {
+    opacity: 0.9;
+  }
+}

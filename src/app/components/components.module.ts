@@ -7,6 +7,7 @@ import { PokeListComponent } from './poke-list/poke-list.component';
 import { RouterModule } from '@angular/router';
 import { ErrorLoadComponent } from './error-load/error-load.component';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { ScrollButtonComponent } from './scroll-button/scroll-button.component';
 
 
 
@@ -15,7 +16,8 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
     PokeHeaderComponent,
     PokeSearchComponent,
     PokeListComponent,
-    ErrorLoadComponent
+    ErrorLoadComponent,
+    ScrollButtonComponent
   ],
   imports: [
     CommonModule,
@@ -26,6 +28,7 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
     PokeHeaderComponent,
     PokeSearchComponent,
     PokeListComponent,
+    ScrollButtonComponent,
     ErrorLoadComponent
   ]
 })
