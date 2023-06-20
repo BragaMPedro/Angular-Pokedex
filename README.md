@@ -1,27 +1,77 @@
-# PokedexAngular
+# Pokedex Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 15.2.1.
 
-## Development server
+Este projeto é uma aplicação web desenvolvida como estudo de Angular Framework. Pokedex serve como um enciclopédia interativa de pokemon, permitindo que o usuário pesquise pokemon e tenha acesso a suas informações como status, tipo, e evoluções.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tabela de Conteúdos
+<!--ts-->
+* [Funcionalidades](#funcionalidades)
+* [Como usar](#como-usar)
+  * [Pré-requisitos](#pré-requisitos)
+  * [Instalação](#instalação)
+  * [Executando a aplicação](#executando-a-aplicação)
+* [Tecnologias](#tecnologias)
+* [Contribuidores](#contribuidores)
+* [Autor](#autor)
+<!--te-->
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [x] Explorar e buscar pokemon por nome
+- [x] Ver informações detalhadas do pokemon como tipo, status, e evoluções
+- [ ] Atualizar lista automaticamente ao 
+- [ ] Filtrar pokemon por tipo
 
-## Build
+## Como usar
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Pré-requisitos
 
-## Running unit tests
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Instalação
 
-## Running end-to-end tests
+```bash
+# Clone este repositório
+$ git clone https://github.com/BragaMPedro/Angular-Pokedex
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Angular-Pokedex
 
-## Further help
+# Instale as dependências
+$ npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Executando a aplicação
+
+```bash
+# Execute a aplicação em modo de desenvolvimento
+$ ng serve
+
+# Abra seu browser em `http://localhost:4200` para acessar a aplicação.
+
+#Ou utilize o comando abaixo para abrir o browser automaticamente
+$ ng serve -o
+```
+
+## Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [Angular Framework](https://angular.io/)
+- [SCSS](https://sass-lang.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Contribuidores
+
+## Autor
+<a href="https://www.linkedin.com/in/pedrobragaresume/">
+   <img src="https://avatars.githubusercontent.com/u/111090976?v=4" width="100px;" style="border-radius: 50%" alt=""/>
+   <br />
+   <sub><bPedro Braga</b></sub>
+</a>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Pedro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=[https://www.linkedin.com/in/pedrobragaresume/)](https://www.linkedin.com/in/pedrobragaresume/)
