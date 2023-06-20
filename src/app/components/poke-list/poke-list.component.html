@@ -1,6 +1,12 @@
 <poke-search (emmitSearch)="getSearch($event)" />
 
-<section class="listagem">
+<section
+  class="listagem"
+  infiniteScroll
+  [infiniteScrollDistance]="2"
+  [infiniteScrollThrottle]="1000"
+  (scrolled)="onScroll()"
+>
   <ng-template ngFor let-pokemon [ngForOf]="allPokemon">
     <a
       [routerLink]="['details', pokemon.status.id]"
