@@ -26,7 +26,7 @@ export class PokeApiService {
   }
   
   get getMorePokemon(): Observable<any> {
-    return this.http.get<PokemonListResponse>(this.nextPage).pipe(
+    return this.http.get<PokemonListResponse>(this.nextPage.replace("limit=100", "limit=20")).pipe(
       tap(res => this.nextPage = res.next),
       map((res) => res.results),
       tap((results) =>
