@@ -20,7 +20,7 @@ Este projeto é uma aplicação web desenvolvida como estudo de Angular Framewor
 
 - [x] Explorar e buscar pokemon por nome
 - [x] Ver informações detalhadas do pokemon como tipo, status, e evoluções
-- [ ] Atualizar lista automaticamente ao 
+- [x] Scroll Infinito na lista inicial
 - [ ] Filtrar pokemon por tipo
 
 ## Como usar
